@@ -260,10 +260,10 @@ select{
     width: 100%;
     border: none;
     cursor: pointer;
+    color: #787878;
+    background-color: none;
 }
-.sen{
-    border: none;
-}
+
 hr{
     color: #F6F6F6;
     width: 550px;
@@ -598,11 +598,14 @@ hr{
   header{
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 375px;
+    
     
 
   }
   body{
+    width: 375px;
+  }
+  .container{
     width: 375px;
   }
   .navbar{
@@ -618,6 +621,7 @@ hr{
     box-shadow: 0 .5rem 1rem rgb(124, 122, 122);
     /* backdrop-filter: blur(3px); */
     transition: all .50s ease;
+    width: 375px;
   }
   .navbar.open{
     left: 2%;
