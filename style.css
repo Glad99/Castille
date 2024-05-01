@@ -598,12 +598,13 @@ hr{
   header{
     padding-left: 1rem;
     padding-right: 1rem;
+    width: 375px;
     
 
   }
-  /* body{
+  body{
     width: 375px;
-  } */
+  }
   .navbar{
     position: absolute;
     top: 100%;
@@ -693,7 +694,7 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    width: 375px;;
+    width: 326px;
 }
 .search-job{
     flex-direction: column;
