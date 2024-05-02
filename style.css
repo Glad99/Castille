@@ -579,6 +579,7 @@ hr{
 
 /* Mobile */
 @media (max-width: 768px){
+
   .icon{
     display: block;
     color: #AA182C;
@@ -596,18 +597,15 @@ hr{
     display: block;
   }
   header{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-    
-
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+    padding: 0;
+    width: 375px;
   }
   body{
     width: 375px;
   }
-  .container{
-    width: 375px;
-  }
+  
   .navbar{
     position: absolute;
     top: 100%;
@@ -622,6 +620,8 @@ hr{
     /* backdrop-filter: blur(3px); */
     transition: all .50s ease;
     width: 375px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .navbar.open{
     left: 2%;
@@ -668,6 +668,7 @@ ul li a:hover{
     display: block;
     
 }
+
 .main img{
     display: none;
 }
@@ -676,7 +677,7 @@ ul li a:hover{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 0;
 }
 .main-text h3{
     text-align: left;
@@ -724,7 +725,7 @@ width: 300px;
 .profile{
     flex-direction: column;
     padding: 2rem;
-    height: 540px;
+    height: 570px;
 }
 .loading{
     justify-content: left;
@@ -759,7 +760,7 @@ width: 300px;
     margin-top: 1.5rem;
 }
 .deploy{
-    bottom: 9rem;
+    bottom: 10.5rem;
     left: 1.9rem;
     width: 90px;
 }
@@ -768,7 +769,7 @@ width: 300px;
 }
 .approve button{
     margin-top: 1rem;
-    width: 300px;
+    width: 275px;
 }
 .service{
     flex-wrap: wrap;
