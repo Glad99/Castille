@@ -261,7 +261,7 @@ select{
     border: none;
     cursor: pointer;
     color: #C4C4C4;
-    background-color: none;
+    background: none;
 }
 
 hr{
