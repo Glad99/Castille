@@ -534,6 +534,9 @@ hr{
     .main img{
         display: none;
     }
+    .main h3{
+        font-size: 18px;    
+    }
     .main h1{
         font-size: 32px;    
     }
@@ -674,6 +677,7 @@ ul li a:hover{
 }
 .main{
     margin-left: -1rem;
+    margin-top: 7rem;
 }
 .main-text{
     display: flex;
