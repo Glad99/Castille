@@ -29,7 +29,10 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 1.3rem 10%;
+    /* padding: 1.3rem 10%; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+
 }
 
 .navbar{
@@ -49,7 +52,8 @@ ul{
 
 li{
     list-style: none;
-    margin-left: 62px;
+    margin-right: 60px;
+    margin-left: 20px;
     margin-top: 27px;
     font-size: 14px;
     padding-bottom: 1.5rem;
@@ -60,7 +64,7 @@ a{
 }
 
 ul li:nth-child(3){
-    margin-left: 15rem;
+    margin-left: 5rem;
 }
 ul li a{
     text-decoration: none;
@@ -76,12 +80,15 @@ select{
     color: #1E1D1C;
     cursor: pointer;
 }
+select:focus {
+    outline: none; /* Remove the default outline */
+    border: none; /* Remove the border */
+  }
 
 .search{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3rem;
     margin-right: 3rem;
     gap: 2rem;
     cursor: pointer;
@@ -158,8 +165,14 @@ select{
 .main{
     display: flex;
     margin-top: 10rem;
-    width: 80%;
     margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 1rem;
+}
+.main img{
+    width: -10px;
+    height: -5px;
 }
 
 .main-text{
@@ -167,7 +180,6 @@ select{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -178,7 +190,8 @@ select{
     font-size: 48px;
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    width: 736px;
 }
 .main-text h1 span{
     color: #AA182C;
@@ -191,6 +204,8 @@ select{
 .main-text p{
     text-align: center;
     margin: 0 2rem;
+    width: 544px;
+    margin-bottom: 4rem;
 }
 
 .box{
@@ -198,6 +213,12 @@ select{
     flex-direction: column;
     gap: 3rem;
     width: 60vw;
+    width: 1120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
 }
 
 .search-job{
@@ -210,7 +231,8 @@ select{
     color: #4D4D4D;
     border-radius: 5px;
     background: #ffffff;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+    width: 1120px;
 }
 .search-job button{
     padding: 1rem 1.5rem;
@@ -302,6 +324,7 @@ hr{
     padding-top: 2rem;
     background: #ffffff;
     position: relative;
+    width: 1120px;
 }
 .profile-detail{
     margin-top: 1rem;
@@ -525,8 +548,17 @@ hr{
         font-weight: bold;
         border-bottom: 0;
     }
+    ul li:nth-child(3){
+        margin-left: 0;
+    }
+    ul li:nth-child(1){
+        margin-left: 0;
+    }
     .button{
         margin-bottom: 1rem;
+    }
+    .login{
+        color: white;
     }
     .search-icon{
         display: block;
@@ -538,11 +570,13 @@ hr{
         font-size: 18px;    
     }
     .main h1{
-        font-size: 32px;    
+        font-size: 42px;
+        padding: 0 3rem ;    
     }
     .main-text p{
         font-size: 15px;
         margin: 0 5rem;
+        padding: 0 3rem ; 
     }
     .main-text{
         text-align: justify;
@@ -550,18 +584,20 @@ hr{
     }
     .main{
         margin-top: 7rem;
+        width: 664px;
     }
     .box{
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        width: fit-content;
+        width: 664px;
     }
     .search-job{
         flex-direction: column;
         height: 400px;
     gap: 1rem;
     padding: 1rem 0;
+    width: 664px;
 }
 .add{
     position: absolute;
@@ -581,7 +617,7 @@ hr{
 
 
 /* Mobile */
-@media (max-width: 768px){
+@media (max-width: 767px){
 body{
     width: 375px;
 }
@@ -624,7 +660,6 @@ body{
     box-shadow: 0 .5rem 1rem rgb(124, 122, 122);
     /* backdrop-filter: blur(3px); */
     transition: all .50s ease;
-    width: 375px;
   }
   .navbar.open{
     left: 2%;
@@ -667,6 +702,9 @@ ul li a:hover{
 .button{
     margin-bottom: 1rem;
 }
+.login{
+    color: white;
+}
 .search-icon{
     display: block;
     
@@ -676,8 +714,9 @@ ul li a:hover{
     display: none;
 }
 .main{
-    margin-left: -1rem;
+    margin-left: 5rem;
     margin-top: 7rem;
+    
 }
 .main-text{
     display: flex;
@@ -685,6 +724,7 @@ ul li a:hover{
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0;
+    width: 326px;
 }
 .main-text h3{
     text-align: left;
@@ -713,6 +753,7 @@ ul li a:hover{
     height: 400px;
 gap: 1rem;
 padding: 1rem 0;
+width: 326px;
 }
 .add{
 position: absolute;
@@ -733,6 +774,7 @@ width: 300px;
     flex-direction: column;
     padding: 2rem;
     height: 570px;
+    width: 326px;
 }
 .loading{
     justify-content: left;
