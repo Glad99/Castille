@@ -164,7 +164,7 @@ select:focus {
 
 .main{
     display: flex;
-    margin-top: 9rem;
+    margin-top: 10rem;
     margin-bottom: 3rem;
     /* margin-left: 5rem;
     margin-right: 5rem; */
@@ -200,7 +200,6 @@ select:focus {
     font-size: 24px;
     color: #AA182C;
     font-weight: 700;
-    margin-top: 3rem;
 }
 .main-text p{
     text-align: center;
@@ -504,7 +503,19 @@ hr{
       #check:checked~.icon #close-icon{
         display: block;
       }
-      
+      body{
+        min-width: 768px;
+      }
+      .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('./assets/Background (3).svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100vw;
+    }
       .navbar{
         position: absolute;
         top: 100%;
@@ -582,6 +593,7 @@ hr{
     .main-text{
         text-align: justify;
         padding: 0rem;
+        width: 664px;
     }
     .main{
         margin-top: 7rem;
@@ -623,7 +635,7 @@ hr{
 /* Mobile */
 @media (max-width: 767px){
 body{
-    width: 375px;
+    min-width: 320px;
 }
   .icon{
     display: block;
@@ -646,10 +658,16 @@ body{
     padding-right: 1.5rem; */
     padding-left: 1rem;
   }
-  body{
-    width: 375px;
+  .container{
+    background-image: url('./assets/Background (2).svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vw;
+}
+  /* body{
+    min-width: 375px;
     overflow-x: hidden;
-  }
+  } */
   
   .navbar{
     position: absolute;
@@ -718,8 +736,9 @@ ul li a:hover{
     display: none;
 }
 .main{
-    margin-left: 5rem;
+    margin-left: 1rem;
     margin-top: 7rem;
+    width: 326px;
     
 }
 .main-text{
@@ -749,7 +768,7 @@ ul li a:hover{
 .box{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5rem;
     width: 326px;
 }
 .search-job{
