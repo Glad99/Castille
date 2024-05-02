@@ -601,10 +601,11 @@ body{
   header{
     /* padding-left: 1.5rem;
     padding-right: 1.5rem; */
-    padding: 0;
+    padding-left: 1rem;
   }
   body{
     width: 375px;
+    overflow: hidden;
   }
   
   .navbar{
@@ -621,8 +622,6 @@ body{
     /* backdrop-filter: blur(3px); */
     transition: all .50s ease;
     width: 375px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
   .navbar.open{
     left: 2%;
@@ -672,6 +671,9 @@ ul li a:hover{
 
 .main img{
     display: none;
+}
+.main{
+    margin-left: -1rem;
 }
 .main-text{
     display: flex;
