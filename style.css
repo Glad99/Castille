@@ -503,9 +503,6 @@ hr{
       #check:checked~.icon #close-icon{
         display: block;
       }
-      body{
-        min-width: 768px;
-      }
       .container{
         display: flex;
         flex-direction: column;
@@ -633,10 +630,7 @@ hr{
 
 
 /* Mobile */
-@media (max-width: 767px){
-body{
-    min-width: 320px;
-}
+@media (min-width: 320px) and (max-width: 767px){
   .icon{
     display: block;
     color: #AA182C;
