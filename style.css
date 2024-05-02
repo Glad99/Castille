@@ -608,6 +608,7 @@ body{
   }
   body{
     width: 375px;
+    overflow-x: hidden;
   }
   
   .navbar{
