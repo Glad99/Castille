@@ -5,7 +5,6 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     box-sizing: border-box;
-    color: #1E1D1C;
 }
 
 .container{
@@ -149,6 +148,7 @@ select:focus {
     font-size: 2rem;
     cursor: pointer;
     display: none;
+    color: #AA182C;
 }
 
 #check{
@@ -204,6 +204,7 @@ select:focus {
 }
 .main-text h1 span{
     color: #AA182C;
+    font-weight: 700;
 }
 .main-text h3{
     font-size: 24px;
@@ -645,9 +646,9 @@ hr{
     display: block;
     color: #AA182C;
   }
-  /* .logo{
+  .logo{
     margin-left: 1rem;
-  } */
+  }
   #check:checked~.icon #menu-icon{
     display: none;
   }
