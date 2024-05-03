@@ -5,6 +5,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     box-sizing: border-box;
+    color: #1E1D1C;
 }
 
 .container{
@@ -171,10 +172,18 @@ select:focus {
     gap: 1rem;
     width: 1300px;
 }
-.main img{
-    
-}
 
+/* @keyframes slideInLeft {
+    from{
+        transform: translateX(0 );
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.image-1{
+    animation: slideInLeft 1s ease-in 1s 1 normal ;
+} */
 .main-text{
     display: flex;
     flex-direction: column;
@@ -218,6 +227,7 @@ select:focus {
     align-items: center;
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-top: 2rem;
     
 }
 
