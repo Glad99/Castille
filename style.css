@@ -688,8 +688,8 @@ hr {
   .main {
     margin-top: 7rem;
     max-width: 326px;
-    margin-right: 1rem;
-    margin-right: 1rem;
+    margin-right: 10px;
+    margin-right: 10px;
   }
   .main-text {
     display: flex;
