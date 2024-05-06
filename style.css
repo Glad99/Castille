@@ -590,7 +590,7 @@ hr {
 }
 
 /* Mobile */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 520px) {
   .icon {
     display: block;
     color: #aa182c;
@@ -687,7 +687,7 @@ hr {
   }
   .main {
     margin-top: 7rem;
-    width: 326px;
+    width: 320px;
   }
   .main-text {
     display: flex;
