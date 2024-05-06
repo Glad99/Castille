@@ -699,20 +699,20 @@ hr {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0;
-    width: 326px;
+    width: 320px;
   }
   .main-text h3 {
     text-align: left;
   }
   .main-text h1 {
     font-size: 32px;
-    width: 326px;
+    width: 320px;
     height: 124px;
     text-align: left;
   }
   .main-text p {
     font-size: 15px;
-    width: 326px;
+    width: 320x;
     height: 70px;
     text-align: left;
     margin: 0;
