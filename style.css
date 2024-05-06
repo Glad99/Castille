@@ -686,7 +686,8 @@ hr {
     display: none;
   }
   .main {
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
+    margin: 7rem 0.5rem 0 0.5rem;
     width: 320px;
   }
   .main-text {
