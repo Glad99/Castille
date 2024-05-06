@@ -689,6 +689,9 @@ hr {
     /* margin-top: 7rem; */
     margin: 7rem 0 0 0;
     width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-text {
     display: flex;
